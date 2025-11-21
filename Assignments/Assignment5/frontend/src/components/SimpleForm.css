@@ -1,0 +1,86 @@
+
+.clean-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+  padding: 20px;
+}
+
+
+.clean-card {
+  width: 380px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.clean-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111827;
+  font-weight: 600;
+}
+
+
+.clean-error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+
+.clean-card label {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 6px;
+  display: block;
+}
+
+
+.clean-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 15px;
+  outline: none;
+  transition: 0.25s;
+}
+
+.clean-card input:focus {
+  border-color: #6366f1;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+}
+
+
+.clean-card button {
+  width: 100%;
+  padding: 12px;
+  background: #6366f1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.clean-card button:hover {
+  background: #4f46e5;
+}
+
+.clean-card button:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
